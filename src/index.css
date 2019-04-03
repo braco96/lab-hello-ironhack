@@ -1,0 +1,60 @@
+/* Estilos globales de la página */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Barra de navegación superior */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Sección principal (hero) con fondo oscuro */
+.hero {
+  background-color: #1f2535;
+  color: white;
+  padding: 60px 20px;
+  position: relative;
+}
+
+/* Alineamos la imagen del logo de React en la esquina derecha */
+.hero .react-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 250px;
+  opacity: 0.1; /* Le damos transparencia para que actúe como fondo */
+}
+
+/* Botón principal */
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Sección de características */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+/* Cada bloque de característica */
+.features div {
+  width: 200px;
+  text-align: left;
+}
+
+.features img {
+  width: 100px;
+}
+
+.features h2 {
+  margin-bottom: 10px;
+}
